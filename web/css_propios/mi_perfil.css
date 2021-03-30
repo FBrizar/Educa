@@ -1,0 +1,151 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/06/2016, 01:00:29 PM
+    Author     : fbrizar
+*/
+.bloque_izquierdo_2 figure figcaption{
+    font-size:15px;
+    text-align: center;
+    font-style: italic;
+    color:#640923;
+}
+
+
+.centrada{
+    text-align: center;
+    
+}
+
+
+.perfil{
+
+  width:300px;
+  padding:40px 30px;
+  background:rgba(235,235,205,0.7);
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  margin:50px auto;
+  margin-bottom: 20px;
+  
+}
+
+.form-group{
+  position: relative;
+  margin-bottom:15px;
+}
+.form-control{
+  width:200%;
+  height:40px;
+  border:none;
+  padding:5px 7px 5px 15px;
+  background:#fff;
+  color:#666;
+  border:2px solid #E0D68F;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+}
+.form-control:focus, .form-control:focus + .fa{
+  border-color:#10CE88;
+  color:#10CE88;
+}
+.form-group .fa{
+  position: absolute;
+  right:15px;
+  top:17px;
+  color:#999;
+}
+
+h3{
+    text-align: center;
+}
+
+.formulario{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 40px;
+}
+
+.bloque_izquierdo_2 h3{
+    margin-bottom: 30px;
+    font-size: 27px;
+    
+}
+
+
+.bloque_lateral_2 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.personal{
+    margin-bottom: 25px;
+}
+    
+.nombre_aviso{
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 10px;
+    
+}
+
+.fecha_aviso{
+    font-size: 15px;
+    text-align:right;
+    padding-bottom: 5px;
+    
+}
+
+.bloque_anuncio_personal{
+    color: #FFFFFF;
+    height: auto;
+    padding: 5px;
+    background-color: #0033CC;
+    border-style: groove;
+    border-radius: 10px;  
+}
+
+.bloque_anuncio_personal p{
+    color: #FFFFFF;
+}
+
+.subtitulo_seccion{
+    color:#0066FF;
+    font-size:20px;
+    border-bottom: 1px solid #0066FF;
+}
+
+ .nombre_aviso{
+        color: #FFFFFF;
+    }
+    
+     .fecha_aviso{
+         color: #FFFFFF;
+     }
+
+ @media screen and (max-width: 500px){
+    .nombre_aviso{
+        font-size: 15px;
+    }
+    
+     .fecha_aviso{
+         font-size: 10px;
+     }
+     .formulario{
+         margin: 10px;
+         padding: 5px;
+     }
+     
+     .bloque_perfil{
+         margin: 10px;
+         padding: 5px;
+     }
+     .form-control{
+         width: auto;
+     }
+}

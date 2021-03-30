@@ -1,0 +1,92 @@
+.bloque_izquierdo_2 h3{
+    font-size:16px;
+}
+
+.bloque_izquierdo_2 h3 b{
+    font-size:20px;
+}
+
+
+.bloque_registro h1{
+    color: #0033CC;
+    font-size:28px;
+}
+
+.bloque_registro h2{
+    color:#0033CC;
+    font-size:24px;
+}
+
+.datos_archivo{
+    margin-top:10px;
+    margin-bottom:20px;
+    padding-bottom: 20px;
+    border: 1px solid #EEEEEE;
+    border-radius:5px;
+}
+
+.datos_congreso h1{
+    color: #0033CC;
+    font-size:28px;
+}
+
+
+.aviso_archivo{
+       margin-top:10px;
+    margin-bottom:20px;
+    border: 1px dashed #0033CC;
+    border-radius:5px;
+    padding-right:10px;
+}
+
+.boton_editar{
+    background-color: #0033CC;
+    color:#FFFFFF;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+.boton_editar:hover{
+    background-color: #EEEEEE;
+    color:#0033CC;
+}
+
+.boton_cancelar{
+    text-align: right;
+    background-color: #0033CC;
+    color:#FFFFFF;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+.boton_cancelar:hover{
+    background-color: #EEEEEE;
+    color:#0033CC;
+}
+
+
+.etiqueta{
+    margin-top:20px;
+    margin-bottom:3px;
+}
+
+.bloque_registro a{
+    margin-top:20px;
+    font-size:20px;
+    color:#0033CC;
+}
+
+.bloque_registro a:hover{
+
+    font-size:20px;
+    color:#0033CC;
+}
+
+.buscar{
+    margin: 30px;
+    
+}
+
+figure{
+    
+}

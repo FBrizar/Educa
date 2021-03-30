@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4/07/2016, 05:18:18 PM
+    Author     : fbrizar
+*/
+
+/********TABLA CON BORDES*******/
+
+/*Borde de las filas*/
+.tabla_con_bordes tr{
+    border:2px solid #003399;
+       
+}
+
+/*Estilo de los encabezados*/
+.tabla_con_bordes th{
+    background-color:#003399;
+    color:#FFFFFF;
+    text-align:center;   
+}
+
+.tabla_con_bordes td{
+    text-align: center;
+}
+
+/*Estilo de los encabezados de thead*/
+.tabla_con_bordes thead tr th{
+        border:2px solid #003399;
+}
+
+/*Estilo del cuerpo de la tabla*/
+.tabla_con_bordes tbody tr td{
+        border:2px solid #003399;
+}

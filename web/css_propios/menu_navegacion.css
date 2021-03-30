@@ -1,0 +1,58 @@
+/*Estilo del menú*/
+.menu_principal{
+    background-color: #6ab9bb;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.encabezado_menu{
+    height: auto;
+}
+
+
+/*Estilo de la liga dentro del encabezado*/
+.encabezado_menu a{
+    color:#FFFFFF;
+    font-size: 20px;
+}
+
+/*Estilo de la liga (opciones) del menú*/
+.elementos_menu li a{
+    color:#FFFFFF;
+}
+
+/*Estilo al pasar el cursor sobre la liga*/
+.elementos_menu li a:hover{
+    color:#6ab9bb;
+    background-color: #FFFFFF;
+}
+
+/*Estilo del caret (triángulo)*/
+.caret{
+  color:#FFFFFF;
+}
+
+/*Estilo del caret al pasar el cursor sobre la liga que lo contiene*/
+.elementos_menu li a:hover .caret{
+  color:#6ab9bb;
+}
+
+/*Estilos de los elementos del menú emergente*/
+.emergente{
+    background-color:  #6ab9bb;
+}
+
+/*Estilo de las ligas*/
+.emergente a{
+    color:#FFFFFF;
+}
+
+/*Estilo de las ligas al pasar el cursor*/
+.emergente a:hover{
+    color:#6ab9bb;
+}
+
+.logo_menu{
+    color: #FFFFFF;
+    font-size: 25px;
+}

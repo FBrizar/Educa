@@ -1,0 +1,78 @@
+/*El encabezado del cuerpo principal*/
+.figure img{
+    image-resolution: 20px, 20px;
+    height: 25px;
+}
+
+.bloque_lateral_2 h1{
+    color: #000000;
+    font-size: 20px;
+}
+
+.personal{
+    margin-bottom: 25px;
+}
+    
+.nombre_aviso{
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 10px;
+    
+}
+
+.fecha_aviso{
+    font-size: 15px;
+    text-align:right;
+    padding-bottom: 5px;
+    
+}
+
+.bloque_anuncio_personal{
+    color: #FFFFFF;
+    height: auto;
+    padding: 5px;
+    background-color: #0033CC;
+    border-style: groove;
+    border-radius: 10px;  
+}
+
+.bloque_anuncio_general{
+    color: #FFFFFF;
+    height: auto;
+    padding: 5px;
+    background-color:#0066FF ;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+.bloque_anuncio_personal p{
+    color: #FFFFFF;
+}
+
+.bloque_anuncio_general p{
+    color: #FFFFFF;
+}
+
+.subtitulo_seccion{
+    color:#0066FF;
+    font-size:20px;
+    border-bottom: 1px solid #0066FF;
+}
+
+ .nombre_aviso{
+        color: #FFFFFF;
+    }
+    
+     .fecha_aviso{
+         color: #FFFFFF;
+     }
+
+ @media screen and (max-width: 500px){
+    .nombre_aviso{
+        font-size: 15px;
+    }
+    
+     .fecha_aviso{
+         font-size: 10px;
+     }
+}
