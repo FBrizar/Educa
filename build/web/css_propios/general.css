@@ -1,0 +1,176 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6/06/2016, 10:28:37 PM
+    Author     : fbrizar
+*/
+
+/*Estilo por defecto  */
+*{
+color:#000000;
+
+}
+
+/*No resaltar ligas visitadas  */
+a:focus{
+outline:0px;
+}
+
+
+/*Estilo para el cuerpo  */
+body{
+background-color:#EEEEEE;
+}
+
+.sin_padding{
+  padding-right:0px;
+  padding-left:0px;
+}
+
+/*********BANNER**************/
+
+/*Se define el estilo del banner*/
+.banner{
+height:90px;
+margin-bottom:5px;  
+}
+
+.contenedor_imagen{
+margin-top:5px;
+text-align:center;
+}
+
+.contenedor_imagen figure img{
+height:80px;
+} 
+
+.contenedor_info_header{
+margin-top:10px;
+}
+
+.bloque_header_A{
+margin-bottom:10px;
+text-height: max-size;
+font-style: italic;
+}
+
+.bloque_header_A h1{
+font-size:20px;
+margin:2px;
+color:#FFFFFF;
+}
+
+.bloque_header_B{
+margin-bottom:10px;
+}
+
+.bloque_header_B h2{
+text-align:right;
+font-size:16px;
+font-style:italic;
+color:#FFFFFF;
+}
+
+
+/**********MENU*****************/
+
+/*Estilo del contenedor del menú*/
+.menu_sitio{
+height:70px;
+margin-bottom:5px;
+}
+
+/**************CUERPO PRINCIPAL************/
+
+
+/*Estilo del cuerpo principal*/
+.cuerpo{
+border: 1px solid #6ab9bb;
+margin-bottom:5px;
+height:400px;
+padding-right:5px;
+}
+
+.cuerpo_inicio{
+border: 1px solid #6ab9bb;
+margin-bottom:5px;
+height:500px;
+
+padding-right:5px;
+}
+
+/*Estilo del bloque izquierdo*/
+.bloque_izquierdo{
+height:auto;
+}
+
+/*Estilo del bloque lateral*/
+.bloque_lateral{
+
+border-radius:5px;
+height:380px;
+margin-top:5px;
+margin-bottom:2px;
+
+}
+
+/**************OTRO CUERPO**************/
+
+.cuerpo_2{
+margin-bottom:40px;
+height:auto;
+
+}
+
+/*Estilo del bloque izquierdo*/
+.bloque_izquierdo_2{
+height: auto;
+margin-bottom: 30px;
+}
+
+/*Estilo del bloque lateral*/
+.bloque_lateral_2{
+height: auto;
+margin-bottom:2px;
+border-left: 5px;
+}
+
+.bienvenido{
+    font-size: 20px;
+}
+
+/******FOOTER***********/
+
+
+/*Estilo del Footer*/
+.footer_sitio{
+height:auto;
+}
+
+.titulo_footer{
+color:#FFFFFF;
+text-align:center;
+padding-top:10px;
+}
+
+.bloque_footer_A{
+color:#FFFFFF;
+text-align:center;
+padding-top:10px;
+}
+
+/**************COLORES DE FONDO***********/
+
+/*Se especifica el color de fondo-guinda*/
+.bg-fondo_educa{
+    background-color: #6ab9bb;
+}
+
+.escritorio{
+    margin: 5px;
+}
+
+
